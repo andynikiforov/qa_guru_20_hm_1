@@ -31,6 +31,6 @@ def test_search():
             expect(page.locator('body')).to_contain_text('Курсы тестировщиков')
 
         except Exception as e:
-            pytest.fail(f"Тест упал с ошибкой: {str(e)}")
+            pytest.fail(f"Тест упал с ошибкой!: {str(e)}")
         finally:
             browser.close()
