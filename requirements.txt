@@ -1,0 +1,4 @@
+selene==2.0.0rc9
+pytest
+selenium~=4.32.0
+playwright~=1.52.0
